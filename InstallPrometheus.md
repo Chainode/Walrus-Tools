@@ -44,7 +44,19 @@ sudo nano /etc/prometheus/prometheus.yml
       - targets: ['localhost:9184']  
         labels:  
           group: 'WalrusNode'  
-  
+
+  - job_name: 'Walrus-Aggregator'
+    static_configs:
+      - targets: ['localhost:27182']
+        labels:
+          group: 'WalrusAggregator'
+
+  - job_name: 'Walrus-Publisher'
+    static_configs:
+      - targets: ['localhost:27183']
+        labels:
+          group: 'WalrusPublisher'
+
   - job_name: node  
     static_configs:  
       - targets: ['localhost:9100']  
