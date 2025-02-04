@@ -62,6 +62,9 @@ sudo nano /etc/prometheus/prometheus.yml
       - targets: ['localhost:9100']  
 
 ```
+
+The ports 9184, 27182, 27183 for the Walrus Storage Node, Walrus Publisher and Walrus Aggregator are just examples and have to be changed accordingly to the ports your services are exposing metrics. 
+The same applies to the node or Prometheus port or host ("localhost") — they can be adapted as needed.
         
 ### Set the user and group ownership on the configuration file
 ```
