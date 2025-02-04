@@ -23,7 +23,7 @@ This can be changed once the dashboard was imported by going to "Dashboard Setti
 As a next step you should make sure the right Prometheus connection has been selected and if necessary adapt the Dashboard. 
 
 ## Final Result 
-![image](https://github.com/user-attachments/assets/e760e958-cb57-40f6-8737-34e15c9935ca)
+![image](https://github.com/user-attachments/assets/e315d099-fb56-43ba-b0f7-88c0fb2b3e2a)
 ![image](https://github.com/user-attachments/assets/3372d4c8-66f9-4e66-8f15-8bd80f7837c9)
 ![image](https://github.com/user-attachments/assets/5040168b-788a-4530-8a63-7ace57608402)
 ![image](https://github.com/user-attachments/assets/9e83a051-fda5-4824-bd6e-293c3835a50b)
